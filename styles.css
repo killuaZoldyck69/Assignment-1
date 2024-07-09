@@ -7,7 +7,8 @@
 .navigation ul {
   list-style: none;
   display: flex;
-  justify-content: space-between;
+  gap: 1000px;
+  justify-content: center;
 }
 .name {
   font-size: 28px;
@@ -20,4 +21,37 @@
   color: #0d1321;
   padding: 17px 24px;
   border-radius: 8px;
+}
+
+/* banner section styles */
+.banner {
+  background-image: url(images/Hero-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 48px;
+  text-align: center;
+}
+.banner-content {
+  padding: 26px 221px 48px;
+}
+.banner-content .tittle {
+  font-size: 48px;
+  font-weight: 900;
+  color: #0d1321;
+  line-height: 68px;
+}
+.banner .sub-tittle {
+  font-size: 16px;
+  color: #0d1321;
+  line-height: 26px;
+}
+.two {
+  padding: 21px 24px;
+  background-color: #0d1321;
+  color: white;
+  margin-top: 32px;
+  margin-bottom: 45px;
 }
