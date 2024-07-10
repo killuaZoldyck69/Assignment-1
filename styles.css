@@ -65,12 +65,12 @@
   border-radius: 16px;
   padding: 80px 97px;
 }
-.why .tittle {
+.tittle {
   font-size: 32px;
   font-weight: 900;
   text-align: center;
 }
-.why .sub-tittle {
+.sub-tittle {
   line-height: 26px;
   font-weight: 16px;
   text-align: center;
@@ -99,4 +99,18 @@
   padding: 12px 20px;
   font-size: 20px;
   font-weight: 600;
+}
+
+/* inspiration section styles in main */
+.inspiration {
+  width: 1140px;
+  text-align: center;
+  margin: 0px auto;
+}
+.inspiration iframe {
+  border: 2px solid #0d132120;
+  border-radius: 16px;
+  padding: 32px;
+  margin-top: 48px;
+  margin-bottom: 151px;
 }
