@@ -59,11 +59,11 @@
 /* why sectin styles in main*/
 .why {
   width: 1140px;
-  height: 1400px;
   background-color: rgba(13, 19, 33, 0.02);
   margin: 50px auto 74px;
   border-radius: 16px;
   padding: 80px 97px;
+  border: 1px solid black;
 }
 .tittle {
   font-size: 32px;
@@ -104,8 +104,8 @@
 /* inspiration section styles in main */
 .inspiration {
   width: 1140px;
-  text-align: center;
   margin: 0px auto;
+  border: 1px solid black;
 }
 .inspiration iframe {
   border: 2px solid #0d132120;
@@ -120,6 +120,7 @@
   width: 1140px;
   justify-content: center;
   margin: 0px auto;
+  border: 1px solid black;
 }
 /* curren-target */
 .current-skills {
@@ -176,4 +177,47 @@
   background-color: white;
   margin-bottom: 24px;
   padding: 40px;
+}
+
+/* support section styles in main */
+.support {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
+    url(images/handshake.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 1140px;
+  border-radius: 16px;
+  margin: auto;
+  padding: 64px 48px;
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+.support h4 {
+  font-size: 32px;
+  color: white;
+}
+.support p {
+  color: white;
+  line-height: 26px;
+}
+.support div {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+}
+.support > div > input {
+  width: 548px;
+  height: 57px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+  text-align: center;
+}
+.support > div > button {
+  height: 57px;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 17px 20px;
+  border: none;
 }
