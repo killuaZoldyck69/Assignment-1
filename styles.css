@@ -63,6 +63,7 @@
   background-color: rgba(13, 19, 33, 0.02);
   margin: 50px auto 74px;
   border-radius: 16px;
+  padding: 80px 97px;
 }
 .why .tittle {
   font-size: 32px;
@@ -73,6 +74,7 @@
   line-height: 26px;
   font-weight: 16px;
   text-align: center;
+  padding: 0px 144px;
 }
 .all-content {
   display: flex;
