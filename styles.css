@@ -217,8 +217,8 @@
   font-size: 16px;
   border-radius: 8px;
   border: none;
-  text-align: center;
   margin-bottom: 64px;
+  padding-left: 20px;
 }
 .support > div > button {
   height: 57px;
