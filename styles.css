@@ -221,3 +221,16 @@
   padding: 17px 20px;
   border: none;
 }
+
+/* footer section styles */
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 16px;
+  background-color: #0d132103;
+}
+footer > h4 {
+  font-size: 20px;
+  font-weight: 600;
+}
